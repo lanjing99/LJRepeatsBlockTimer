@@ -44,7 +44,7 @@
 
 -(void)dealloc
 {
-    [self.timer invalidate];
+    [self remove];
 }
 
 @end
