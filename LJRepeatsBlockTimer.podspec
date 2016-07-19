@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LJTimerBlockManager'
+  s.name             = 'LJRepeatsBlockTimer'
   s.version          = '0.1.0'
   s.summary          = 'Manage multiple timer task, so user (mostly ViewControllers) do care about setting timmer.'
 
@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
                        A simple class manage multiple timer task, so user (mostly ViewControllers) do care about setting timmer.
                        DESC
 
-  s.homepage         = 'https://github.com/lanjing99/LJTimerBlockManager'
+  s.homepage         = 'https://github.com/lanjing99/LJRepeatsBlockTimer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lanjing' => '84336951@qq.com' }
-  s.source           = { :git => 'https://github.com/lanjing99/LJTimerBlockManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lanjing99/LJRepeatsBlockTimer', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'LJTimerBlockManager/Classes/**/*'
+  s.source_files = 'LJRepeatsBlockTimer/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'LJTimerBlockManager' => ['LJTimerBlockManager/Assets/*.png']
+  #   'LJRepeatsBlockTimer' => ['LJTimerBlockManager/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

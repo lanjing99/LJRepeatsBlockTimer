@@ -70,7 +70,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		743C73A259D5DCA2E06F4AC0 /* Pods-LJTimerBlockManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJTimerBlockManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJTimerBlockManager_Example/Pods-LJTimerBlockManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9C855668822B8764A86F6AA8 /* LJTimerBlockManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LJTimerBlockManager.podspec; path = ../LJTimerBlockManager.podspec; sourceTree = "<group>"; };
+		9C855668822B8764A86F6AA8 /* LJRepeatsBlockTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LJRepeatsBlockTimer.podspec; path = ../LJRepeatsBlockTimer.podspec; sourceTree = "<group>"; };
 		A07B32E71D100C9B00469CF9 /* NSTimer+EOCBlockSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+EOCBlockSupport.h"; sourceTree = "<group>"; };
 		A07B32E81D100C9B00469CF9 /* NSTimer+EOCBlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+EOCBlockSupport.m"; sourceTree = "<group>"; };
 		A0E009C91D101EED005DA861 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				9C855668822B8764A86F6AA8 /* LJTimerBlockManager.podspec */,
+				9C855668822B8764A86F6AA8 /* LJRepeatsBlockTimer.podspec */,
 				3E746A08515A79D1DD7F912D /* README.md */,
 				4F3518700FA81D94E1EE8C2E /* LICENSE */,
 			);
