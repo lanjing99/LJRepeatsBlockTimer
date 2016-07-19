@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint LJTimerBlockManager.podspec' to ensure this is a
+# Be sure to run `pod lib lint LJRepeatsBlockTimer.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LJRepeatsBlockTimer'
-  s.version          = '0.1.0'
-  s.summary          = 'Manage multiple timer task, so user (mostly ViewControllers) do care about setting timmer.'
+  s.version          = '0.1.1'
+  s.summary          = 'A simple class to make NSTimer used easily.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,22 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                       A simple class manage multiple timer task, so user (mostly ViewControllers) do care about setting timmer.
+A simple class which has only two classes to make NSTimer used easily.
                        DESC
 
   s.homepage         = 'https://github.com/lanjing99/LJRepeatsBlockTimer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lanjing' => '84336951@qq.com' }
-  s.source           = { :git => 'https://github.com/lanjing99/LJRepeatsBlockTimer', :tag => s.version.to_s }
+  s.author           = { 'lanjing99' => '84336951@qq.com' }
+  s.source           = { :git => 'https://github.com/lanjing99/LJRepeatsBlockTimer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'LJRepeatsBlockTimer/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'LJRepeatsBlockTimer' => ['LJTimerBlockManager/Assets/*.png']
+  #   'LJRepeatsBlockTimer' => ['LJRepeatsBlockTimer/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

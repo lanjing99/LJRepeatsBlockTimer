@@ -1,12 +1,11 @@
 use_frameworks!
 
-target 'LJTimerBlockManager_Example' do
-  pod 'LJTimerBlockManager', :path => '../'
+target 'LJRepeatsBlockTimer_Example' do
+  pod 'LJRepeatsBlockTimer', :path => '../'
 
-  target 'LJTimerBlockManager_Tests' do
+  target 'LJRepeatsBlockTimer_Tests' do
     inherit! :search_paths
 
-    pod 'Specta'
-  pod 'Expecta'
+    
   end
 end

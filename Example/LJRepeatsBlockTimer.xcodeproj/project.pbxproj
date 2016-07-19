@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AF0D416702543B439315C8C /* Pods_LJTimerBlockManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5816FA705075724080B88ECF /* Pods_LJTimerBlockManager_Tests.framework */; };
-		3DEF044C1D3DE008007BDFD3 /* LJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF044B1D3DE008007BDFD3 /* LJTestViewController.m */; };
-		3DEF044F1D3E0294007BDFD3 /* LJRepeatsBlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF044E1D3E0294007BDFD3 /* LJRepeatsBlockTimer.m */; };
-		58909B11648F871AC76C9C74 /* Pods_LJTimerBlockManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE168DC36C55C2F92F214552 /* Pods_LJTimerBlockManager_Example.framework */; };
+		341180670B88D82C80310C55 /* Pods_LJRepeatsBlockTimer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE70EE53C6F3FB903FFE72E /* Pods_LJRepeatsBlockTimer_Tests.framework */; };
+		35E6D4797C8FB15813C9C78B /* Pods_LJRepeatsBlockTimer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BB2488866C3F8C94DA18F0 /* Pods_LJRepeatsBlockTimer_Example.framework */; };
+		3D5FF99E1D3E26650048F89C /* LJRepeatsBlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FF9981D3E26650048F89C /* LJRepeatsBlockTimer.m */; };
+		3D5FF99F1D3E26650048F89C /* NSTimer+EOCBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FF99B1D3E26650048F89C /* NSTimer+EOCBlockSupport.m */; };
+		3D5FF9A31D3E27930048F89C /* LJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FF9A21D3E27930048F89C /* LJTestViewController.m */; };
+		3D5FF9A51D3E28C70048F89C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FF9A41D3E28C70048F89C /* Launch Screen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -25,8 +27,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A07B32E91D100C9B00469CF9 /* NSTimer+EOCBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A07B32E81D100C9B00469CF9 /* NSTimer+EOCBlockSupport.m */; };
-		A0E009CA1D101EED005DA861 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E009C91D101EED005DA861 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +35,24 @@
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = LJTimerBlockManager;
+			remoteInfo = LJRepeatsBlockTimer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F8503120042EDD7C669BB63 /* Pods-LJTimerBlockManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJTimerBlockManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJTimerBlockManager_Tests/Pods-LJTimerBlockManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3DEF044A1D3DE008007BDFD3 /* LJTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTestViewController.h; sourceTree = "<group>"; };
-		3DEF044B1D3DE008007BDFD3 /* LJTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTestViewController.m; sourceTree = "<group>"; };
-		3DEF044D1D3E0294007BDFD3 /* LJRepeatsBlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRepeatsBlockTimer.h; sourceTree = "<group>"; };
-		3DEF044E1D3E0294007BDFD3 /* LJRepeatsBlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRepeatsBlockTimer.m; sourceTree = "<group>"; };
-		3E746A08515A79D1DD7F912D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4D02878B4B67CBBC013B3FDE /* Pods-LJTimerBlockManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJTimerBlockManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJTimerBlockManager_Example/Pods-LJTimerBlockManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4F3518700FA81D94E1EE8C2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5816FA705075724080B88ECF /* Pods_LJTimerBlockManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJTimerBlockManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A245D56BEEA74F55009C95 /* Pods-LJRepeatsBlockTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJRepeatsBlockTimer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJRepeatsBlockTimer_Tests/Pods-LJRepeatsBlockTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0CE70EE53C6F3FB903FFE72E /* Pods_LJRepeatsBlockTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJRepeatsBlockTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AC616DBAAEE0AB8AF5BF06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2DAE4E4F2E8C4F9211BB855E /* LJRepeatsBlockTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LJRepeatsBlockTimer.podspec; path = ../LJRepeatsBlockTimer.podspec; sourceTree = "<group>"; };
+		36BB2488866C3F8C94DA18F0 /* Pods_LJRepeatsBlockTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJRepeatsBlockTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5FF9971D3E26650048F89C /* LJRepeatsBlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRepeatsBlockTimer.h; sourceTree = "<group>"; };
+		3D5FF9981D3E26650048F89C /* LJRepeatsBlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRepeatsBlockTimer.m; sourceTree = "<group>"; };
+		3D5FF99A1D3E26650048F89C /* NSTimer+EOCBlockSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+EOCBlockSupport.h"; sourceTree = "<group>"; };
+		3D5FF99B1D3E26650048F89C /* NSTimer+EOCBlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+EOCBlockSupport.m"; sourceTree = "<group>"; };
+		3D5FF9A11D3E27930048F89C /* LJTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTestViewController.h; sourceTree = "<group>"; };
+		3D5FF9A21D3E27930048F89C /* LJTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTestViewController.m; sourceTree = "<group>"; };
+		3D5FF9A41D3E28C70048F89C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4827C70C060C31D5CC8CD332 /* Pods-LJRepeatsBlockTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJRepeatsBlockTimer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJRepeatsBlockTimer_Example/Pods-LJRepeatsBlockTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LJRepeatsBlockTimer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJRepeatsBlockTimer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,20 +66,16 @@
 		6003F5A5195388D20070C39A /* LJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* LJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* LJRepeatsBlockTimer_Example.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJRepeatsBlockTimer_Example.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* LJRepeatsBlockTimer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJRepeatsBlockTimer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		743C73A259D5DCA2E06F4AC0 /* Pods-LJTimerBlockManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJTimerBlockManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJTimerBlockManager_Example/Pods-LJTimerBlockManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9C855668822B8764A86F6AA8 /* LJRepeatsBlockTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LJRepeatsBlockTimer.podspec; path = ../LJRepeatsBlockTimer.podspec; sourceTree = "<group>"; };
-		A07B32E71D100C9B00469CF9 /* NSTimer+EOCBlockSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+EOCBlockSupport.h"; sourceTree = "<group>"; };
-		A07B32E81D100C9B00469CF9 /* NSTimer+EOCBlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+EOCBlockSupport.m"; sourceTree = "<group>"; };
-		A0E009C91D101EED005DA861 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		DE168DC36C55C2F92F214552 /* Pods_LJTimerBlockManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJTimerBlockManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE4A7139564923DA714A276C /* Pods-LJTimerBlockManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJTimerBlockManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJTimerBlockManager_Tests/Pods-LJTimerBlockManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		981496ED2FC5333CAD8EBE5F /* Pods-LJRepeatsBlockTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJRepeatsBlockTimer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJRepeatsBlockTimer_Tests/Pods-LJRepeatsBlockTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6E10AB6B36B128333D72E3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E3EF1CFB0C22BC8CF99239D4 /* Pods-LJRepeatsBlockTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJRepeatsBlockTimer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJRepeatsBlockTimer_Example/Pods-LJRepeatsBlockTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				58909B11648F871AC76C9C74 /* Pods_LJTimerBlockManager_Example.framework in Frameworks */,
+				35E6D4797C8FB15813C9C78B /* Pods_LJRepeatsBlockTimer_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,34 +97,51 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				0AF0D416702543B439315C8C /* Pods_LJTimerBlockManager_Tests.framework in Frameworks */,
+				341180670B88D82C80310C55 /* Pods_LJRepeatsBlockTimer_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EA1727835546B6E86A8366B /* Pods */ = {
+		3D5FF9941D3E26650048F89C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				743C73A259D5DCA2E06F4AC0 /* Pods-LJTimerBlockManager_Example.debug.xcconfig */,
-				4D02878B4B67CBBC013B3FDE /* Pods-LJTimerBlockManager_Example.release.xcconfig */,
-				FE4A7139564923DA714A276C /* Pods-LJTimerBlockManager_Tests.debug.xcconfig */,
-				1F8503120042EDD7C669BB63 /* Pods-LJTimerBlockManager_Tests.release.xcconfig */,
+				3D5FF9961D3E26650048F89C /* LJTimerBlockManager */,
+				3D5FF9991D3E26650048F89C /* NSTimer+EOCBlockSupport */,
 			);
-			name = Pods;
+			name = Classes;
+			path = ../LJRepeatsBlockTimer/Classes;
+			sourceTree = "<group>";
+		};
+		3D5FF9961D3E26650048F89C /* LJTimerBlockManager */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FF9971D3E26650048F89C /* LJRepeatsBlockTimer.h */,
+				3D5FF9981D3E26650048F89C /* LJRepeatsBlockTimer.m */,
+			);
+			path = LJTimerBlockManager;
+			sourceTree = "<group>";
+		};
+		3D5FF9991D3E26650048F89C /* NSTimer+EOCBlockSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FF99A1D3E26650048F89C /* NSTimer+EOCBlockSupport.h */,
+				3D5FF99B1D3E26650048F89C /* NSTimer+EOCBlockSupport.m */,
+			);
+			path = "NSTimer+EOCBlockSupport";
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				A07B32DD1D100C4500469CF9 /* Classes */,
+				3D5FF9941D3E26650048F89C /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for LJTimerBlockManager */,
+				6003F593195388D20070C39A /* Example for LJRepeatsBlockTimer */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				0EA1727835546B6E86A8366B /* Pods */,
+				9E128FE0BEDAF6DFA68E6581 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,7 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* LJRepeatsBlockTimer_Example.app */,
-				6003F5AE195388D20070C39A /* LJRepeatsBlockTimer_Example.xctest */,
+				6003F5AE195388D20070C39A /* LJRepeatsBlockTimer_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,28 +161,28 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				DE168DC36C55C2F92F214552 /* Pods_LJTimerBlockManager_Example.framework */,
-				5816FA705075724080B88ECF /* Pods_LJTimerBlockManager_Tests.framework */,
+				36BB2488866C3F8C94DA18F0 /* Pods_LJRepeatsBlockTimer_Example.framework */,
+				0CE70EE53C6F3FB903FFE72E /* Pods_LJRepeatsBlockTimer_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for LJTimerBlockManager */ = {
+		6003F593195388D20070C39A /* Example for LJRepeatsBlockTimer */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* LJAppDelegate.h */,
 				6003F59D195388D20070C39A /* LJAppDelegate.m */,
+				3D5FF9A41D3E28C70048F89C /* Launch Screen.storyboard */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				A0E009C91D101EED005DA861 /* Launch Screen.storyboard */,
 				6003F5A5195388D20070C39A /* LJViewController.h */,
 				6003F5A6195388D20070C39A /* LJViewController.m */,
-				3DEF044A1D3DE008007BDFD3 /* LJTestViewController.h */,
-				3DEF044B1D3DE008007BDFD3 /* LJTestViewController.m */,
+				3D5FF9A11D3E27930048F89C /* LJTestViewController.h */,
+				3D5FF9A21D3E27930048F89C /* LJTestViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for LJTimerBlockManager";
-			path = LJTimerBlockManager;
+			name = "Example for LJRepeatsBlockTimer";
+			path = LJRepeatsBlockTimer;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
@@ -201,39 +218,22 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				9C855668822B8764A86F6AA8 /* LJRepeatsBlockTimer.podspec */,
-				3E746A08515A79D1DD7F912D /* README.md */,
-				4F3518700FA81D94E1EE8C2E /* LICENSE */,
+				2DAE4E4F2E8C4F9211BB855E /* LJRepeatsBlockTimer.podspec */,
+				13AC616DBAAEE0AB8AF5BF06 /* README.md */,
+				D6E10AB6B36B128333D72E3F /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		A07B32DD1D100C4500469CF9 /* Classes */ = {
+		9E128FE0BEDAF6DFA68E6581 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A07B32E61D100C9B00469CF9 /* NSTimer+EOCBlockSupport */,
-				A07B32E21D100C7400469CF9 /* LJTimerBlockManager */,
+				E3EF1CFB0C22BC8CF99239D4 /* Pods-LJRepeatsBlockTimer_Example.debug.xcconfig */,
+				4827C70C060C31D5CC8CD332 /* Pods-LJRepeatsBlockTimer_Example.release.xcconfig */,
+				981496ED2FC5333CAD8EBE5F /* Pods-LJRepeatsBlockTimer_Tests.debug.xcconfig */,
+				07A245D56BEEA74F55009C95 /* Pods-LJRepeatsBlockTimer_Tests.release.xcconfig */,
 			);
-			name = Classes;
-			path = ../LJTimerBlockManager/Classes;
-			sourceTree = "<group>";
-		};
-		A07B32E21D100C7400469CF9 /* LJTimerBlockManager */ = {
-			isa = PBXGroup;
-			children = (
-				3DEF044D1D3E0294007BDFD3 /* LJRepeatsBlockTimer.h */,
-				3DEF044E1D3E0294007BDFD3 /* LJRepeatsBlockTimer.m */,
-			);
-			path = LJTimerBlockManager;
-			sourceTree = "<group>";
-		};
-		A07B32E61D100C9B00469CF9 /* NSTimer+EOCBlockSupport */ = {
-			isa = PBXGroup;
-			children = (
-				A07B32E71D100C9B00469CF9 /* NSTimer+EOCBlockSupport.h */,
-				A07B32E81D100C9B00469CF9 /* NSTimer+EOCBlockSupport.m */,
-			);
-			path = "NSTimer+EOCBlockSupport";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,19 +243,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LJRepeatsBlockTimer_Example" */;
 			buildPhases = (
-				28916C97196746E6FEB80761 /* [CP] Check Pods Manifest.lock */,
+				EC756991623B9138D97A43E4 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				A52B5974FAB2EA91F52EB3BA /* [CP] Embed Pods Frameworks */,
-				07BD9E44847CFC6A1E5052A7 /* [CP] Copy Pods Resources */,
+				1A5FC3C2CDE47316A11D638E /* [CP] Embed Pods Frameworks */,
+				3574AB669301A1C4993BBC30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LJRepeatsBlockTimer_Example;
-			productName = LJTimerBlockManager;
+			productName = LJRepeatsBlockTimer;
 			productReference = 6003F58A195388D20070C39A /* LJRepeatsBlockTimer_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -263,12 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LJRepeatsBlockTimer_Tests" */;
 			buildPhases = (
-				3C65FF16A7F0F4B511B06717 /* [CP] Check Pods Manifest.lock */,
+				E43F5A257772D5500A33E57B /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				830555CF191A27C15C8C0D9E /* [CP] Embed Pods Frameworks */,
-				99178A77FC2DD12CD3BA8F1A /* [CP] Copy Pods Resources */,
+				14D985B81A1A080D785D4792 /* [CP] Embed Pods Frameworks */,
+				BD356DDC2E2F01169BB07CB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,8 +276,8 @@
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
 			name = LJRepeatsBlockTimer_Tests;
-			productName = LJTimerBlockManagerTests;
-			productReference = 6003F5AE195388D20070C39A /* LJRepeatsBlockTimer_Example.xctest */;
+			productName = LJRepeatsBlockTimerTests;
+			productReference = 6003F5AE195388D20070C39A /* LJRepeatsBlockTimer_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -288,7 +288,7 @@
 			attributes = {
 				CLASSPREFIX = LJ;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = lanjing;
+				ORGANIZATIONNAME = lanjing99;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -321,7 +321,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				A0E009CA1D101EED005DA861 /* Launch Screen.storyboard in Resources */,
+				3D5FF9A51D3E28C70048F89C /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,7 +337,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07BD9E44847CFC6A1E5052A7 /* [CP] Copy Pods Resources */ = {
+		14D985B81A1A080D785D4792 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJRepeatsBlockTimer_Tests/Pods-LJRepeatsBlockTimer_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A5FC3C2CDE47316A11D638E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJRepeatsBlockTimer_Example/Pods-LJRepeatsBlockTimer_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3574AB669301A1C4993BBC30 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,10 +379,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJTimerBlockManager_Example/Pods-LJTimerBlockManager_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJRepeatsBlockTimer_Example/Pods-LJRepeatsBlockTimer_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		28916C97196746E6FEB80761 /* [CP] Check Pods Manifest.lock */ = {
+		BD356DDC2E2F01169BB07CB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJRepeatsBlockTimer_Tests/Pods-LJRepeatsBlockTimer_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E43F5A257772D5500A33E57B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,7 +412,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		3C65FF16A7F0F4B511B06717 /* [CP] Check Pods Manifest.lock */ = {
+		EC756991623B9138D97A43E4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,51 +425,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		830555CF191A27C15C8C0D9E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJTimerBlockManager_Tests/Pods-LJTimerBlockManager_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		99178A77FC2DD12CD3BA8F1A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJTimerBlockManager_Tests/Pods-LJTimerBlockManager_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A52B5974FAB2EA91F52EB3BA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJTimerBlockManager_Example/Pods-LJTimerBlockManager_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -436,10 +436,10 @@
 			files = (
 				6003F59E195388D20070C39A /* LJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LJViewController.m in Sources */,
+				3D5FF99E1D3E26650048F89C /* LJRepeatsBlockTimer.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				3DEF044C1D3DE008007BDFD3 /* LJTestViewController.m in Sources */,
-				3DEF044F1D3E0294007BDFD3 /* LJRepeatsBlockTimer.m in Sources */,
-				A07B32E91D100C9B00469CF9 /* NSTimer+EOCBlockSupport.m in Sources */,
+				3D5FF9A31D3E27930048F89C /* LJTestViewController.m in Sources */,
+				3D5FF99F1D3E26650048F89C /* NSTimer+EOCBlockSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,39 +556,39 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 743C73A259D5DCA2E06F4AC0 /* Pods-LJTimerBlockManager_Example.debug.xcconfig */;
+			baseConfigurationReference = E3EF1CFB0C22BC8CF99239D4 /* Pods-LJRepeatsBlockTimer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LJTimerBlockManager/LJRepeatsBlockTimer-Prefix.pch";
-				INFOPLIST_FILE = "LJTimerBlockManager/LJRepeatsBlockTimer-Info.plist";
+				GCC_PREFIX_HEADER = "LJRepeatsBlockTimer/LJRepeatsBlockTimer-Prefix.pch";
+				INFOPLIST_FILE = "LJRepeatsBlockTimer/LJRepeatsBlockTimer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = LJRepeatsBlockTimer_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D02878B4B67CBBC013B3FDE /* Pods-LJTimerBlockManager_Example.release.xcconfig */;
+			baseConfigurationReference = 4827C70C060C31D5CC8CD332 /* Pods-LJRepeatsBlockTimer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LJTimerBlockManager/LJRepeatsBlockTimer-Prefix.pch";
-				INFOPLIST_FILE = "LJTimerBlockManager/LJRepeatsBlockTimer-Info.plist";
+				GCC_PREFIX_HEADER = "LJRepeatsBlockTimer/LJRepeatsBlockTimer-Prefix.pch";
+				INFOPLIST_FILE = "LJRepeatsBlockTimer/LJRepeatsBlockTimer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = LJRepeatsBlockTimer_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE4A7139564923DA714A276C /* Pods-LJTimerBlockManager_Tests.debug.xcconfig */;
+			baseConfigurationReference = 981496ED2FC5333CAD8EBE5F /* Pods-LJRepeatsBlockTimer_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -604,7 +604,7 @@
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = LJRepeatsBlockTimer_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJRepeatsBlockTimer_Example.app/LJRepeatsBlockTimer_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -612,7 +612,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F8503120042EDD7C669BB63 /* Pods-LJTimerBlockManager_Tests.release.xcconfig */;
+			baseConfigurationReference = 07A245D56BEEA74F55009C95 /* Pods-LJRepeatsBlockTimer_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -624,7 +624,7 @@
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = LJRepeatsBlockTimer_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJRepeatsBlockTimer_Example.app/LJRepeatsBlockTimer_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
