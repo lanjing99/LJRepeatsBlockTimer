@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "LJTimerBlockManager_Example.app"
-               BlueprintName = "LJTimerBlockManager_Example"
-               ReferencedContainer = "container:LJTimerBlockManager.xcodeproj">
+               BuildableName = "LJRepeatsBlockTimer_Example.app"
+               BlueprintName = "LJRepeatsBlockTimer_Example"
+               ReferencedContainer = "container:LJRepeatsBlockTimer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "LJTimerBlockManager_Tests.xctest"
-               BlueprintName = "LJTimerBlockManager_Tests"
-               ReferencedContainer = "container:LJTimerBlockManager.xcodeproj">
+               BuildableName = "LJRepeatsBlockTimer_Example.xctest"
+               BlueprintName = "LJRepeatsBlockTimer_Tests"
+               ReferencedContainer = "container:LJRepeatsBlockTimer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "LJTimerBlockManager_Example.app"
-            BlueprintName = "LJTimerBlockManager_Example"
-            ReferencedContainer = "container:LJTimerBlockManager.xcodeproj">
+            BuildableName = "LJRepeatsBlockTimer_Example.app"
+            BlueprintName = "LJRepeatsBlockTimer_Example"
+            ReferencedContainer = "container:LJRepeatsBlockTimer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "LJTimerBlockManager_Example.app"
-            BlueprintName = "LJTimerBlockManager_Example"
-            ReferencedContainer = "container:LJTimerBlockManager.xcodeproj">
+            BuildableName = "LJRepeatsBlockTimer_Example.app"
+            BlueprintName = "LJRepeatsBlockTimer_Example"
+            ReferencedContainer = "container:LJRepeatsBlockTimer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "LJTimerBlockManager_Example.app"
-            BlueprintName = "LJTimerBlockManager_Example"
-            ReferencedContainer = "container:LJTimerBlockManager.xcodeproj">
+            BuildableName = "LJRepeatsBlockTimer_Example.app"
+            BlueprintName = "LJRepeatsBlockTimer_Example"
+            ReferencedContainer = "container:LJRepeatsBlockTimer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

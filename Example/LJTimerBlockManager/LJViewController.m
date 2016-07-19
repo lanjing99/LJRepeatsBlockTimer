@@ -7,10 +7,10 @@
 //
 
 #import "LJViewController.h"
-#import "LJTimerBlockManager.h"
+#import "LJRepeatsBlockTimer.h"
 
 @interface LJViewController ()
-@property (nonatomic, strong) id<LJTimerBlockItemProtocol> item;
+
 @end
 
 @implementation LJViewController
@@ -18,10 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    self.item = [[LJTimerBlockManager shareInstance] addTimerBlock:^{
-        NSLog(@"I am here");
-    } forInterval:1 startImmediately:YES];
+//	// Do any additional setup after loading the view, typically from a nib.
+//    self.item = [[LJTimerBlockManager shareInstance] addTimerBlock:^{
+//        NSLog(@"I am here");
+//    } forInterval:1 startImmediately:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,7 +31,7 @@
 }
 
 - (IBAction)buttonTouched:(id)sender {
-    [self.item remove];
+//    [self.item remove];
 }
 
 @end
